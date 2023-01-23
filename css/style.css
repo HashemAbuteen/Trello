@@ -30,7 +30,11 @@ body div.page2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+}
+
+#little1,
+#little2 {
+  font-size: 2rem;
 }
 
 li {
