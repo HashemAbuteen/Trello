@@ -11,8 +11,8 @@ html {
 body {
   font-family: sans-serif;
   width: 100vw;
-  height: 200vh;
-  
+  /* height: 200vh; */
+  background: #E5E5E5;
 }
 
 body div.page1 {
@@ -50,13 +50,13 @@ ul {
   list-style: none;
 }
 
-button {
+/* button {
   border-radius: 10px;
   padding: 2rem 5rem;
   font-size: 2rem;
   color: cornflowerblue;
   font-weight: bold;
-}
+} */
 
 ul li.logo {
   font-size: 5rem;
@@ -73,4 +73,51 @@ ul li.logo {
 
   font-size: 6rem;
   color: white;
+}
+ #upcoming h2 {
+  font-weight: 600;
+  font-size: 4rem;
+  line-height: 5rem;
+  text-align: center;
+  color: #000000;
+}
+#upcoming .menu-upcoming {
+  display: flex;
+  width: 340px;
+  height: 66px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 10px;
+  margin: auto;
+  justify-content: space-around;
+  margin-top: 70px;
+  align-items: center;
+}
+
+#upcoming button {
+  width: 100px;
+  height: 46px;
+  border-radius: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  border: none;
+  background-color: #FFFFFF;
+}
+
+#upcoming button.selected {
+  background-color: #3E86F5;
+  color: #FFFFFF;
+}
+#upcoming .deals-card-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 0 130px;
+  margin-top: 40px;
+}
+#upcoming .upcoming-card {
+  width: 380px;
+  height: 457px;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 50px;
+  margin: 0 3rem;
 }
