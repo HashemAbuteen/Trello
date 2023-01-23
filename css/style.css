@@ -126,8 +126,20 @@ body .middle .little2 {
   }
 @media screen and (max-width: 600px) {
   .right {
-    display: none;
+    display: flex;
+    flex: strech;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+
+  button {
+    display: none;
+  }
+
+  ul.right li {
+    font-size: 1rem;
   }
 
   .page1 .navbar {
