@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.searchNav{
+    /* width: 1030px; */
+    height: 110px;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    display: flex;
+    padding: 1rem;
+    justify-content: space-evenly;
+}
+
+.leftSearch{
+    border: 1px solid #000;
+    border-radius: 1rem;
+    flex: 2;
+    margin: 0 2rem;
+} 
+.centerSearch{
+    margin: 0 2rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+    flex: 3;
+}
+
+.rightSearch{
+    margin: 0 2rem;
+    flex: 1;
+    border: 1px solid #000;
+    border-radius: 1rem;
+}
