@@ -40,6 +40,10 @@ li {
   padding: 1.5rem;
 }
 
+li:hover {
+  border-bottom: 1rem solid ;
+}
+
 ul {
   display: flex;
   justify-content: space-evenly;
@@ -73,4 +77,10 @@ ul li.logo {
 
   font-size: 6rem;
   color: white;
+}
+
+body .middle .little1,
+body .middle .little2 {
+  line-height: 1.7;
+  font-size: 2rem;
 }
