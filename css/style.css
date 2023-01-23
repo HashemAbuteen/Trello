@@ -130,16 +130,7 @@ body .middle .little2 {
   }
 
   .middle {
-    width: 100vw;
-    height: 60vh;
-  
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  
     font-size: 3rem;
-    color: white;
   }
   
   .header2 {
