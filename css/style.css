@@ -30,7 +30,11 @@ body div.page2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
+}
+
+#little1,
+#little2 {
+  font-size: 2rem;
 }
 
 li {
@@ -38,6 +42,10 @@ li {
   margin-left: 2rem;
   margin-right: 3rem;
   padding: 1.5rem;
+}
+
+li:hover {
+  border-bottom: 1rem solid ;
 }
 
 ul {
@@ -50,13 +58,13 @@ ul {
   list-style: none;
 }
 
-/* button {
+li.button-li button {
   border-radius: 10px;
   padding: 2rem 5rem;
   font-size: 2rem;
-  color: cornflowerblue;
+  color: #3E86F5;
   font-weight: bold;
-} */
+}
 
 ul li.logo {
   font-size: 5rem;
@@ -74,6 +82,104 @@ ul li.logo {
   font-size: 6rem;
   color: white;
 }
+<<<<<<< HEAD
+
+body .page1 .middle .little1,
+body .page1 .middle .little2 {
+  line-height: 1.7;
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 1052px) and (min-width: 600px) {
+  li {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1.5rem;
+    padding: 0.75rem;
+  }
+  button {
+    border-radius: 1rem;
+    padding: 1rem 2.5rem;
+    font-size: 1rem;
+    color: #3E86F5;
+    font-weight: bold;
+  }
+  
+  ul li.logo {
+    font-size: 2.5rem;
+  }
+  
+  .middle {
+    width: 100vw;
+    height: 60vh;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+    font-size: 3rem;
+    color: white;
+  }
+  
+  body .middle .little1,
+  body .middle .little2 {
+    line-height: 1.7;
+    font-size: 1.5rem;
+  }
+    
+}
+@media screen and (max-width: 600px) and (min-width: 500px) {
+  .right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+    
+  }
+
+  li.button-li {
+    display: none;
+  }
+
+  ul.right li {
+    font-size: 2rem;
+    border-bottom: 3px solid white;
+  }
+
+  .page1 .navbar {
+    
+    justify-content: center;
+  }
+
+  .page1 .navbar ul li.logo {
+    font-size: 6rem;
+  }
+
+  .middle {
+    font-size: 3rem;
+  }
+  
+  .header2 {
+    margin-bottom: 2rem;
+  }
+
+  body .middle .little1,
+  body .middle .little2 {
+    line-height: 1.7;
+    font-size: 1.6rem;
+  }
+
+}
+@media screen and (max-width: 500px) {
+  .page1 {
+    display: none;
+  }
+  .page2 {
+    display: none;
+  }
+}
+=======
  #upcoming h2 {
   font-weight: 600;
   font-size: 4rem;
@@ -120,4 +226,5 @@ ul li.logo {
   box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.05);
   border-radius: 50px;
   margin: 0 3rem;
+>>>>>>> b3502e8cb30f5a7fe3de5302b8f896c26b4a8fd6
 }
