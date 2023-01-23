@@ -125,8 +125,18 @@ body .middle .little2 {
     
   }
 @media screen and (max-width: 600px) {
+  .right {
+    display: none;
+    justify-content: center;
+  }
+
   .page1 .navbar {
-    visibility: hidden;
+    
+    justify-content: center;
+  }
+
+  .page1 .navbar ul li.logo {
+    font-size: 6rem;
   }
 
   .middle {
